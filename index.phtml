@@ -1,0 +1,18 @@
+<html>
+<head><title>IDEA Library Archive Usage</title></head>
+<body>
+<h3>Intended Use:</h3>
+<p>
+This file should be included as a normal PHP file - <code> include INC_DIR."idea_library_{$version}.phar";</code>.
+<br />
+By Default new PHAR's will always choose the first version for now. This can be overidden by settting <code>define("IDEA_VERSION",2); </code>,
+where the version is the valid version otherwise default is version 1.  This tool will trickle down from the chosen version to the next availabel
+version that a class is required from.
+</p>
+
+<p>
+As new versions become available, the archive should simply be able to replace the current one without problems until the version 
+is changed to the more recent one. In this way testing can be done with minimal change to other code.
+</p>
+</body>
+</html>
