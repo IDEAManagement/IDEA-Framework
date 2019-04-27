@@ -1,5 +1,5 @@
 {
-    "name": "IDEAManagement/IDEA-Framework",
+    "name": "dh_axekuk/application",
     "type": "project",
     "authors": [
         {
@@ -7,8 +7,13 @@
             "email": "tadd@rex-pro.com"
         }
     ],
-    "require" : {
-        "php" : "^7.3"
+    "require": {
+        "IDEAManagement/IDEA-Framework": "dev-composer"
     },
-    "repositories": {}
+    "repositories": {
+        "IDEA-Framework": {
+            "type": "vcs",
+            "url": "https://github.com/IDEAManagement/IDEA-Framework.git"
+        }
+    }
 }
