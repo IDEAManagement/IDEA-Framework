@@ -1,0 +1,14 @@
+{
+    "name": "IDEAManagement/IDEA-Framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thaddaeus Johnson",
+            "email": "tadd@rex-pro.com"
+        }
+    ],
+    "require" : {
+        "php" : "^7.0"
+    },
+    "repositories": {}
+}
