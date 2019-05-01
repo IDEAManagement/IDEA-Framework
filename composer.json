@@ -10,5 +10,8 @@
     "require" : {
         "php" : "^7.3"
     },
-    "repositories": {}
+    "repositories": {},
+    "autoload": {
+        "psr-4": {"library\\": "src/"}
+    }
 }
