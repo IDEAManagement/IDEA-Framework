@@ -1,6 +1,6 @@
 {
-    "name": "ideamanagement/framework",
-    "type": "project",
+    "name": "ideamanagement/library",
+    "type": "library",
     "authors": [
         {
             "name": "Thaddaeus Johnson",

@@ -1,11 +1,11 @@
 <?php
 
-namespace ideamanagement\framework;
+namespace ideamanagement\library;
 
 require_once ("idea.framework.inc.php");
 
 
-class framework {
+class library {
     function __construct()
     {
         return;
