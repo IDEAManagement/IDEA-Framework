@@ -16,6 +16,8 @@
  *  make this an appropriate object
  */
 
+namespace library\configurator
+
 trait configurator_v4 {
 	
 	/**

@@ -1,5 +1,6 @@
 <?php
 
+namespace library\configurator
 
 trait configurator_v5 {
 
