@@ -5,8 +5,6 @@
  *  V5 is a large leap from V3 so V3 will not be obsoleted.
  */
 
-namespace ideamanagement\library;
-
 class configurator {
 
 	static function application_include_autoload_register(){
