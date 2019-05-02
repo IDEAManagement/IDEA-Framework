@@ -6,7 +6,7 @@
  */
 
 class configurator {
-	use configurator_v5, configurator_v4 {
+	use \ideamanagement\library\configurator_v5, \ideamanagement\library\configurator_v4 {
 		configurator_v5::domain_parts insteadof configurator_v4;
 	}
 }
