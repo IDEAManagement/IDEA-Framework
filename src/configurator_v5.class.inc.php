@@ -1,6 +1,6 @@
 <?php
 
-namespace library\configurator
+namespace ideamanagement\library
 
 trait configurator_v5 {
 

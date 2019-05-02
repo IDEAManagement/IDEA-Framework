@@ -16,7 +16,7 @@
  *  make this an appropriate object
  */
 
-namespace library\configurator
+namespace ideamanagement\library
 
 trait configurator_v4 {
 	
