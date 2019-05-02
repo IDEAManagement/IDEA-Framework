@@ -12,6 +12,6 @@
     },
     "repositories": {},
     "autoload": {
-        "psr-4": {"library\\": "src/"}
+        "psr-4": {"ideamanagement\\library\\": "src/"}
     }
 }
