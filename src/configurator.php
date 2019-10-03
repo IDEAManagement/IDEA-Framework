@@ -55,7 +55,7 @@ class configurator {
 				$uri = $_SERVER['SCRIPT_URL'];
 		}
 		
-		if( $uri[0] == '/' )
+		if( isset($uri) && $uri[0] == '/' )
 		{	$uri = substr($uri,1); }
 		
 		$exploded_uri = explode( '/',(isset($uri) && $uri != '' ? $uri : "index/index") );
