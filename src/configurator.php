@@ -53,8 +53,6 @@ class configurator {
 				$uri = $_SERVER['SCRIPT_URL'];
 			if( isset($_SERVER["PATH_INFO"]) )
 				$uri = $_SERVER['SCRIPT_URL'];
-			if($uri == '')
-				$uri = array('/');
 		}
 		
 		if( $uri[0] == '/' )
