@@ -49,7 +49,7 @@ class configurator {
 		
 		if( $uri == '' )
 		{
-			$uri = (isset($_SERVER['SCRIPT_URL']) ? $_SERVER['SCRIPT_URL'] : $_SERVER["REQUEST_URI"]);
+			$uri = (isset($_SERVER['SCRIPT_URL']) ? $_SERVER['SCRIPT_URL'] : $_SERVER["PATH_INFO"]);
 		}
 		
 		if( $uri[0] == '/' )
