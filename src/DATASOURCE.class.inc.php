@@ -2,7 +2,7 @@
 
 namespace ideamanagement\library;
 
-use DB;
+use ideamanagement\library\datasource\DB;
 
 /**
  * In An Effort to build a more robust system
