@@ -1,6 +1,8 @@
 <?php
 namespace ideamanagement\library;
 
+use \mysqli;
+
 /**
  * Object for accessing a mysql database
  * 
