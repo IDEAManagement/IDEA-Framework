@@ -6,6 +6,7 @@ namespace ideamanagement\library;
  * 
  */
 
+ namespace library\site_settings
 
 class site_settings extends db_mysql_table
 {

@@ -6,5 +6,5 @@
 //Maintained for application reference
 if( !defined("IDEA_CURRENT_VERSION") ) define("IDEA_CURRENT_VERSION",5);
 if( !defined("IDEA_VERSION") ){	define("IDEA_VERSION",IDEA_CURRENT_VERSION);	}
-
+if( !defined("INC_IND") ){ define("INC_IND", "inc.php"); }
 spl_autoload_register(function($class_name){ @include_once dirname(__FILE__).'/src/'.$class_name.'.class'.INC_END; });

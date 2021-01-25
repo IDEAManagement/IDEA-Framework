@@ -8,6 +8,8 @@ use ideamanagement\library\db_mysql_table;
  * 
  */
 
+ namespace library\site
+
 Class site extends db_mysql_table
 {
 	protected $table_name = "site";

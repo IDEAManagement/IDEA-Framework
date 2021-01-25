@@ -20,6 +20,8 @@ use ideamanagement\library\site;
  *  make this an appropriate object
  */
 
+namespace ideamanagement\library;
+
 trait configurator_v4 {
 	
 	/**

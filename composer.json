@@ -1,0 +1,17 @@
+{
+    "name": "ideamanagement/library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Thaddaeus Johnson",
+            "email": "tadd@rex-pro.com"
+        }
+    ],
+    "require" : {
+        "php" : "^7.3"
+    },
+    "repositories": {},
+    "autoload": {
+        "psr-4": {"ideamanagement\\library\\": "src/"}
+    }
+}
