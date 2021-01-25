@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use db_mysql;
 
 /**
  * Contains Accessors for the Default DB

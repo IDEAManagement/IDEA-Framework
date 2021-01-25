@@ -1,4 +1,5 @@
 <?php
+namespace ideamanagement\library;
 
 /*
  * To be v4 compliant We need to seperate out all tables into classes

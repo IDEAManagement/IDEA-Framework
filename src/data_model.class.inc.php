@@ -1,4 +1,6 @@
-<?php 
+<?php
+namespace ideamanagement\library;
+
 /**
  * data_model.class.inc.php
  * 

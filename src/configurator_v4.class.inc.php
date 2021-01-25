@@ -1,4 +1,8 @@
 <?php
+namespace ideamanagement\library;
+
+use ideamanagement\library\site;
+
 /**
  * Configurator Object
  * 

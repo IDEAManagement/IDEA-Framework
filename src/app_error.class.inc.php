@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use Exception;
 
 /**
  * App Error v1 - Throws an error via Exception

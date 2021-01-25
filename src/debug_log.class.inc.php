@@ -1,5 +1,12 @@
 <?php
 
+namespace ideamanagement\library;
+
+use debug_log_file;
+use debug_log_sapi;
+use debug_log_sendmail;
+use debug_log_systemlog;
+
 /**
  * This Class should be used to aid in application debugging
  * 
@@ -29,22 +36,22 @@ class debug_log
 		switch( $log_type )
 		{
 			case self::DEBUG_SYSTEMLOG:
-				include_once 'debug/debug_log_systemlog.class'.INC_END;
+				include_once 'debug/debug_log_systemlog.class.inc.php';
 				$this->debug_obj = new debug_log_systemlog();
 				break;
 			
 			case self::DEBUG_SENDMAIL:
-				include_once 'debug/debug_log_sendmail.class'.INC_END;
+				include_once 'debug/debug_log_sendmail.class.inc.php';
 				$this->debug_obj = new debug_log_sendmail();
 				break;
 				
 			case self::DEBUG_FILE:
-				include_once 'debug/debug_log_file.class'.INC_END;
+				include_once 'debug/debug_log_file.class.inc.php';
 				$this->debug_obj = new debug_log_file( func_get_arg(1),func_get_arg(2) );
 				break;
 			
 			case self::DEBUG_SAPI:
-				include_once 'debug/debug_log_sapi.class'.INC_END;
+				include_once 'debug/debug_log_sapi.class.inc.php';
 				$this->debug_obj = new debug_log_sapi();
 				break;
 		}

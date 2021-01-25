@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use Countable;
 
 /**
  * This class is basically an empty framework for simple access

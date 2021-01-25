@@ -1,4 +1,9 @@
 <?php
+namespace ideamanagement\library;
+
+use ideamanagement\library\authentication;
+use ideamanagement\library\database_error;
+use IteratorAggregate;
 
 /**
  * DB Mysql Table Abstract
@@ -300,4 +305,7 @@ Abstract class db_mysql_table implements IteratorAggregate
 	{
 		return new ArrayIterator($this->array);
 	}
+
+    private function audit($action, $query) {
+    }
 }

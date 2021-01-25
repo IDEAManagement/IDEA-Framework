@@ -1,4 +1,5 @@
 <?php
+namespace ideamanagement\library;
 
 /**
  * Provided for backward failover
@@ -11,5 +12,5 @@ class user_error {
 	public function  __get(){	}
 	public function  __set(){	}
 	public function  __call(){	}
-	public function  __callstatic(){	}
+	public static function  __callstatic(){	}
 }

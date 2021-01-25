@@ -1,5 +1,10 @@
 <?php
 
+namespace ideamanagement\library;
+
+use ideamanagement\library\configurator;
+use template;
+
 /**
  * When Completed, assimilate into V3 idea framework
  * 

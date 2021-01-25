@@ -1,4 +1,5 @@
 <?php
+namespace ideamanagement\library;
 
 /**
  * Contains all of the function needed for a 

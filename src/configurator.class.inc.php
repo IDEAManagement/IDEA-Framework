@@ -1,4 +1,8 @@
 <?php
+namespace ideamanagement\library;
+
+use ideamanagement\library\configurator_v4;
+use ideamanagement\library\configurator_v5;
 
 /**
  *  Introduction of Traits - update back to V3 to allow for skipping of V4 which is going to be rendered obsolete by V5

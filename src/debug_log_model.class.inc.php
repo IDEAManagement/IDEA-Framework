@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use IteratorAggregate;
 
 /**
  * Debug Log Model to ensure that public functions are the same for all set/get

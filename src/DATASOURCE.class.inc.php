@@ -1,5 +1,9 @@
 <?php
 
+namespace ideamanagement\library;
+
+use DB;
+
 /**
  * In An Effort to build a more robust system
  * I am adding in the higher definition of a datasource
@@ -29,7 +33,7 @@ class DATASOURCE
 {
 	static function DB()
 	{
-		include_once 'datasource/DB.class'.INC_END;
+		include_once 'datasource/DB.class.inc.php';
 		return new DB();
 	}
 }

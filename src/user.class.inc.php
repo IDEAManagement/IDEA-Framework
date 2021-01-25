@@ -1,4 +1,8 @@
 <?php
+namespace ideamanagement\library;
+
+use users;
+
 /**
  * 
  * @author tadd

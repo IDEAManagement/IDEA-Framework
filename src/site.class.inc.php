@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use ideamanagement\library\db_mysql_table;
 
 /**
  * Class for gettting site data

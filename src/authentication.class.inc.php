@@ -1,5 +1,10 @@
 <?php
 
+namespace ideamanagement\library;
+
+use ideamanagement\library\app_error;
+use ReflectionClass;
+
 /**
  * Base Authentication Functions
  * 

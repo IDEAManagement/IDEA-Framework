@@ -1,4 +1,7 @@
 <?php
+namespace ideamanagement\library;
+
+use Exception;
 
 /**
  * Implementing a Custom DB Error Class for any AJAX requests

@@ -1,4 +1,8 @@
 <?php
+namespace ideamanagement\library;
+
+use db_mysql_table;
+use form;
 
 /**
  * Used to allow Row specifc settings to be utilized
