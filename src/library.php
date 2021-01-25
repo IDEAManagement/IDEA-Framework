@@ -1,7 +1,5 @@
 <?php
 
-<?php
-
 namespace ideamanagement\library;
 
 class library {
