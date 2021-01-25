@@ -1,14 +1,12 @@
 <?php
 namespace ideamanagement\library;
 
-use \mysqli;
-
 /**
  * Object for accessing a mysql database
  * 
  */
 
-class db_mysql extends mysqli
+class db_mysql extends \mysqli
 {
 	private $db = '';
 	
