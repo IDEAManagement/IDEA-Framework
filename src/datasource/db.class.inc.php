@@ -4,7 +4,7 @@ namespace ideamanagement\library;
 
 use ideamanagement\library\db_mysql;
 
-class DB
+class db
 {
 	function _default()
 	{

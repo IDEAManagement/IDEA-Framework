@@ -2,7 +2,7 @@
 
 namespace ideamanagement\library;
 
-use ideamanagement\library\datasource\DB;
+use ideamanagement\library\datasource\db;
 
 /**
  * In An Effort to build a more robust system
@@ -33,7 +33,6 @@ class DATASOURCE
 {
 	static function DB()
 	{
-		include_once 'datasource/DB.class.inc.php';
-		return new DB();
+		return new db();
 	}
 }
