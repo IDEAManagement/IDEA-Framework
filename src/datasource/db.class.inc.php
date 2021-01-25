@@ -1,6 +1,6 @@
 <?php
 
-namespace ideamanagement\library;
+namespace ideamanagement\library\datasource;
 
 use ideamanagement\library\db_mysql;
 
